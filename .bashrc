@@ -118,3 +118,5 @@ if ! shopt -oq posix; then
   fi
 fi
 ### END OF DEFAULT .bashrc from /etc/skel/.bashrc ###
+
+export GIT_CONFIG_GLOBAL=~/.config/git/.gitconfig
