@@ -120,3 +120,7 @@ fi
 ### END OF DEFAULT .bashrc from /etc/skel/.bashrc ###
 
 export GIT_CONFIG_GLOBAL=~/.config/git/.gitconfig
+export PATH=$PATH:/home/jaden/.local/bin
+
+# Should be last line for oh my posh:
+eval "$(oh-my-posh init bash --config '~/.config/oh-my-posh/jadens-theme.json')"
