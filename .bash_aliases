@@ -4,6 +4,7 @@
 # Author: Jaden Zaleski
 # Created: 12/11/24
 
+alias ls="lsd"
 alias l="lsd -la"
 alias lr="lsd -latr"
 
@@ -18,3 +19,5 @@ alias cd7="../../../../../../../"
 alias cd8="../../../../../../../../"
 
 alias grep="grep --color=auto"
+
+
