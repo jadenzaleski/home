@@ -7,3 +7,12 @@ sorting:
   dir-grouping: first
 
 permission: rwx
+
+blocks:
+  - permission
+  - user
+  - group
+  - size
+  - git
+  - date
+  - name
