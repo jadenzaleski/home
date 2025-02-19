@@ -145,7 +145,7 @@
 					"properties": {
 						"time_format": "15:04:05"
 					},
-					"template": "\uf017 {{.Format}}"
+					"template": "\uf017 {{ .CurrentDate | date .Format }}"
 				}
 			],
 			"type": "prompt"
