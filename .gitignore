@@ -5,3 +5,5 @@
 .java
 .viminfo
 .wget-hsts
+.motd_shown
+.sudo_as_admin_successful

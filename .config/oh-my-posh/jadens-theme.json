@@ -22,7 +22,8 @@
 					"background": "p:bg",
 					"template": "{{.Icon}}",
 					"properties": {
-						"macos": "\ue711"
+						"macos": "\ue711",
+						"ubuntu": "\uf31b "
 					},
 					"foreground_templates": [
 						"{{ if eq .OS \"ubuntu\" }}#E95420{{ end }}",
@@ -96,7 +97,7 @@
 					"background": "p:bg",
 					"leading_diamond": "\ue0b6",
 					"trailing_diamond": "\ue0b4 ",
-					"template": "{{ if eq .Code 0 }}\uf00c{{ else if .Code }}\uf00d {{ reason .Code }}{{ else }}\uf00d{{ end }}",
+					"template": "{{ if eq .Code 0 }}✓{{ else if .Code }}\uf00d {{ reason .Code }}{{ else }}\uf00d{{ end }}",
 					"properties": {
 						"always_enabled": true
 					}
@@ -128,7 +129,8 @@
 						"branch_max_length": 25,
 						"fetch_stash_count": true,
 						"fetch_status": true,
-						"fetch_upstream_icon": true
+						"fetch_upstream_icon": true,
+						"github_icon": "\uf09b "
 					},
 					"style": "diamond",
 					"template": "{{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }}",

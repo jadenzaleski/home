@@ -9,6 +9,9 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'morhetz/gruvbox'
 
 "Plugin 'Valloric/YouCompleteMe'"
 
@@ -27,6 +30,23 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-set number
 set tabstop=4
 set shiftwidth=4
+set softtabstop=4 
+set number
+set encoding=UTF-8
+set background=dark " or light if you prefer the light mode
+
+colorscheme gruvbox
+
+" For vim-airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
+"let g:airline_symbols_ascii = 1
+
+if !exists('g:airline_symbols')
+    let g:airline_symbols = {}
+endif
+
+let g:airline_symbols.colnr = ':'
+let g:airline_symbols.maxlinenr = ' '
