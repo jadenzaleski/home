@@ -25,5 +25,5 @@ alias grep="grep --color=auto"
 alias g="git"
 alias gs="git status -uno"
 alias gd="git diff"
-alias gg="git log --graph --pretty=format:"%C(yellow)%h%C(reset) - %C(green)%an%C(reset): %s %C(cyan)%ci%C(reset) %C(red)%d%C(reset)" --abbrev-commit --color"
+alias gg='git log --graph --pretty=format:"%C(yellow)%h%C(reset) - %C(green)%an%C(reset): %s %C(cyan)%ci%C(reset) %C(red)%d%C(reset)" --abbrev-commit --color'
 alias lzg="lazygit"

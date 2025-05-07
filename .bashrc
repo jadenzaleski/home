@@ -126,6 +126,6 @@ export PATH=$PATH:/home/jaden/.local/bin
 eval "$(oh-my-posh init bash --config '~/.config/oh-my-posh/jadens-theme.json')"
 
 # Lastly, load in the .bashrc_ext file if it exists, this allows for user specific configuration.
-if [ -f ~/.bash_ext ]; then
-. ~/.bash_ext
+if [ -f ~/.bashrc_ext ]; then
+. ~/.bashrc_ext
 fi
