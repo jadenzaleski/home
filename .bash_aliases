@@ -5,8 +5,8 @@
 # Created: 12/11/24
 
 alias ls="lsd"
-alias l="lsd -lah"
-alias lr="lsd -latr"
+alias l="ls -lah"
+alias lr="ls -latr"
 alias lg="l | grep"
 
 alias v="vim"
@@ -30,3 +30,7 @@ alias lzg="lazygit"
 
 # To really search all files and directories, simply combine the hidden and ignore features to show everything (-HI) or use -u/--unrestricted.
 alias fd="fd -u"
+
+alias tf="tail -f"
+
+alias lssh="lazyssh"

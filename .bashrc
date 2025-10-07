@@ -125,7 +125,13 @@ export PATH=$PATH:/home/jaden/.local/bin
 # Should be last line for oh my posh:
 eval "$(oh-my-posh init bash --config '~/.config/oh-my-posh/jadens-theme.json')"
 
+# Set the title of the tab
+echo -ne "\033]0;$(whoami)@$(hostname)\a"
+
 # Lastly, load in the .bashrc_ext file if it exists, this allows for user specific configuration.
 if [ -f ~/.bashrc_ext ]; then
 . ~/.bashrc_ext
 fi
+
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
