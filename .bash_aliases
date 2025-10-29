@@ -4,9 +4,8 @@
 # Author: Jaden Zaleski
 # Created: 12/11/24
 
-alias ls="lsd"
-alias l="ls -lah"
-alias lr="ls -latr"
+alias l="eza -alghH --icons=always --sort=type --all --git --group-directories-first --time-style='+%Y-%m-%d %H:%M:%S'"
+alias lr="eza -alghH --icons=always --sort=modified --all --git --time-style='+%Y-%m-%d %H:%M:%S'"
 alias lg="l | grep"
 
 alias v="vim"
