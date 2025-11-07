@@ -9,6 +9,7 @@ alias lr="eza -alghH --icons=always --sort=modified --all --git --time-style='+%
 alias lg="l | grep"
 
 alias v="vim"
+alias nv="nvim"
 
 alias cd2="cd ../../"
 alias cd3="cd ../../../"
@@ -33,3 +34,5 @@ alias fd="fd -u"
 alias tf="tail -f"
 
 alias lssh="lazyssh"
+alias lzd="lazydocker"
+alias lzg="lazygit"

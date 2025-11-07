@@ -9,3 +9,12 @@
 .sudo_as_admin_successful
 .bashrc_ext
 dev
+.aws
+.ivy2
+.azure
+.kube
+.docker
+.m2
+.vim
+.gradle
+lazy-lock.json

@@ -33,7 +33,7 @@ filetype plugin indent on    " required
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4 
-set number
+"set number
 set encoding=UTF-8
 set background=dark " or light if you prefer the light mode
 
