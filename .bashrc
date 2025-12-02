@@ -121,6 +121,7 @@ fi
 
 export GIT_CONFIG_GLOBAL=~/.config/git/.gitconfig
 export PATH=$PATH:/home/jaden/.local/bin
+export HOMEBREW_NO_ENV_HINTS=1
 
 # Should be last line for oh my posh:
 eval "$(oh-my-posh init bash --config '~/.config/oh-my-posh/jadens-theme.json')"
