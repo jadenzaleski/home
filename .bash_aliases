@@ -8,7 +8,7 @@ alias l="eza -alghH --icons=always --sort=type --all --git --group-directories-f
 alias lr="eza -alghH --icons=always --sort=modified --all --git --time-style='+%Y-%m-%d %H:%M:%S'"
 alias lg="l | grep"
 
-alias v="vim"
+alias v="nvim"
 alias nv="nvim"
 
 alias cd2="cd ../../"
@@ -36,3 +36,5 @@ alias tf="tail -f"
 alias lssh="lazyssh"
 alias lzd="lazydocker"
 alias lzg="lazygit"
+
+alias py="python"
